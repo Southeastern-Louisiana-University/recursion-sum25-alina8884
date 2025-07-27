@@ -1,5 +1,8 @@
 package chapter7;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class SelectionSort {
   /** The method for sorting the numbers */
   public static void selectionSort(double[] list) {
@@ -15,11 +18,13 @@ public class SelectionSort {
         }
       }
 
-      // Swap list[i] with list[currentMinIndex] if necessary;
+      // Swap list[i] with list[currentMinIndex] if necessary
       if (currentMinIndex != i) {
         list[currentMinIndex] = list[i];
         list[i] = currentMin;
       }
-    }
+
+
+      ]
+
   }
-}
